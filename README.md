@@ -3,20 +3,27 @@ Statistical Analysis of new car model
 
 ## Linear Regression to Predict MPG
 
-**insert screenshot**
+![Regression Summary](https://github.com/caseykotowski/MechaCar_Statistical_Analysis/blob/main/mpg_regression_summary.png)
+
 * There are two categories that have statistical significance - vehicle length and ground clearance
 * The P value threshold we are using is 0.05, and those are the only two columns that have a lower P value
 * The R squared for this regression line is 71%, so the model is accurate over 2/3's of the time
 
 ## Summary Statistics on Suspension Coils
 
-**two summary stats screenshots**
+![Total Summary](https://github.com/caseykotowski/MechaCar_Statistical_Analysis/blob/main/total_summary.png)
+
+![Lot Summary](https://github.com/caseykotowski/MechaCar_Statistical_Analysis/blob/main/lot_summary.png)
+
  * Lots 1 and 2 have a very small variance each, but lot 3 is well over the limit of 100.
  * In total, the variance does meet specification, which is why grouping by lot shows where issues in manufacturing lie.
 
 ## T-Tests on Suspension Coils
 
-**two t test screenshots**
+![General T Test](https://github.com/caseykotowski/MechaCar_Statistical_Analysis/blob/main/t_test.png)
+
+![Lot T Tests](https://github.com/caseykotowski/MechaCar_Statistical_Analysis/blob/main/t_test_by_lot.png)
+
 * Lots 1 & 2 have means that are not statistically different from the desired mean
   * This is known because the P value is higher than 0.05, so the null hypothesis cannot be rejected
 * Lot 3 is just at the threshold for statistical difference.
